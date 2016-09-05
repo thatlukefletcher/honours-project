@@ -1,0 +1,34 @@
+# String variable assigning
+	<variable> is <variable/value>
+
+# Summing two variables (disregards type)
+	<variable> <arithmetic> <variable>
+
+# Further <arithmetic> (works for integers)
+	add	
+	minus
+	multiply
+	divide
+
+# Conditional tests
+	is <variable> <condition> <variable>?
+		# xxxxxxx
+	else
+		# xxxxxxx
+
+# <condition>'s
+	greater_than
+	less_than
+	equal_to
+	not_equal_to
+
+# Loops
+	loop <variable> times
+		# xxxxxxx
+
+	while <condition>
+		# xxxxxxx
+
+# IO
+	output(<variable>)
+	input(<string>)
